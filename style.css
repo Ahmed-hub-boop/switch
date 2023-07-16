@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    transition: 0.5s all ease;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m-s{
+    width: 20%;
+    height: 100px;
+    background-color: black;
+    border-radius: 56px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    transition: 0.5s all ease;
+}
+.s-s{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s all ease;
+}
+
+.s-s i{
+    font-size: 45px;
+}
+.dark{
+    display: none;
+}
